@@ -108,6 +108,14 @@
 
 
 **問題レポート**
+
+注：
+ChromeやChromiumベースのブラウザに問題が発生している場合は、以下のリンクから報告してください: https://github.com/Skulltrail192/One-Core-API-Binaries/issues/178。
+
+FirefoxやGeckoベースのブラウザに関連する問題の場合は、次のGitHubリンクを使用して報告してください: https://github.com/Skulltrail192/One-Core-API-Binaries/issues/214。
+
+問題がBSoD（ブルースクリーンオブデス）に関連している場合は、以下のページで報告を検討してください: https://github.com/Skulltrail192/One-Core-API-Binaries/issues/233。
+
 問題を再現するには、**常に**このテンプレートに従うことをお勧めします。
 - 何が起こったのか説明してください。
    例: Windows をロードしようとすると、常に BSOD が発生します。 Windows がブート画面で停止する。 Windows で常に黒い画面が表示される

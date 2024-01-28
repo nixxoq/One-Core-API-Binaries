@@ -109,6 +109,15 @@ use a pre-installed version, copied from other operating system;
 - Qt5 application what use Dwrite crash on startup. Has some glitches like black screen if you deleted dwrite (application start and can be used, however)
 
 **Issues Report**
+
+**Note:**
+
+If you're experiencing problems with Chrome or Chromium-based browsers, please report at this link: https://github.com/Skulltrail192/One-Core-API-Binaries/issues/178.
+
+For issues related to Firefox or Gecko-based browsers, kindly use the following GitHub link for reporting: https://github.com/Skulltrail192/One-Core-API-Binaries/issues/214.
+
+If the problem is associated with BSoD (Blue Screen of Death), consider reporting it on this page: https://github.com/Skulltrail192/One-Core-API-Binaries/issues/233.
+
 For help to reproduce issue, is recommend **always** follow this template:
 - Description whats happened.
   Ex: Always get BSOD when try load Windows. Windows stuck on Boot Screen. Windows always get a Black screen, etc;
