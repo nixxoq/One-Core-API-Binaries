@@ -33,7 +33,7 @@ Atenção: Sempre que o pacote exigir a reinicialização do sistema, faça isso
 - **Branding**: Novo sistema de marcas introduzido no Windows Vista, exigido para a instalação dos pacotes D3D e Modern Setup;
 
 **Ordem de instalação dos pacotes:**
-- **Ordem comum**: Base-> Additional Dlls -> API-SET -> Branding -> D3d -> Modern Setup -> Driver Update -> App Compat;
+- **Ordem comum**: Base-> Additional Dlls -> Branding -> D3d -> Driver Update -> App Compat;
 
 - **Pacotes separados (não requer a instalação de outros pacotes, somente se você desejar)**
   - **Somente App Compat:** Este pacote pode ser instalado sem a necessidade de outros pacotes; 
@@ -142,11 +142,12 @@ Alguns prints de aplicativos rodando no Windows XP/Server 2003:
 **Microsoft Chess 3D**
 ![Chess3d](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/bd1ad0c6-edde-4ff2-a6e0-074c7379fab6)
 
-**Telegram 4.14**
-![Telegram-Desktop](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/73e13167-49b8-4282-81cb-969435046dde)
+**Telegram Desktop**
+![Telegram-Desktop](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/d23b9add-629d-45a3-a8e1-c331271bc0d3)
 
 **Libre Office 24 (última versão)**
 ![LibreOffice](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/11fd191d-270c-428d-8d41-0498e8fafb3b)
+![Writer-LibreOffice](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/e389a39b-febd-45f6-9c6f-25f64e460142)
 
 **Discord 0.309**
 ![Discord-Login](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/8a4c12b5-19fc-454d-b02a-a1db807d3900)
@@ -165,7 +166,7 @@ Alguns prints de aplicativos rodando no Windows XP/Server 2003:
 ![StickyNotes](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/669ba3e4-b831-4a96-ad40-d87e3e9531e2)
 
 **Paint do Windows 7**
-![Paint](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/11f354d4-5392-4edd-95c7-13c6faa37362)
+![Paint](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/81728a44-c9e7-41e8-b68b-8ea7b119ebba)
 
 **Wordpad do Windows 7**
 ![Wordpad](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/9dac02c7-7139-47fe-8732-ccd9ef91090b)

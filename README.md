@@ -96,15 +96,12 @@ Warning: Always if OCA package require restart, do it. If you install all packag
 - Kate 23.08.1 (Windows XP x64 only for now)
   
 **Known Limitations:**
-- Open/Save Dialogs from several applications not working fully because are from Vista implementation, called IFileDialog. Working in progress;
-- Running Firefox 56+ you may face page loading problems. To resolve this, from version 55 to 72, you must create an environment variable called MOZ_FORCE_DISABLE_E10S . It will be the key of the user's environment variable, and the value will be 1. For versions from 73 onwards, the value will be the version number, that is, 73.0.0, for example (check the version number).
+- Fixed in OCA 3.0.5 ~~Open/Save Dialogs from several applications not working fully because are from Vista implementation, called IFileDialog. Working in progress;~~
 - Some places in dialogs or windows keep only in english. Internacionalization is working in progress;
 - New applications installers may not work, like Chrome, Maxthon, Discord, Team viewer, etc crash and application isn't installed. Need 
 use a pre-installed version, copied from other operating system;
-- Fixed in version 3.0.4 ~~Some installers like VS Code and Skype genereate a erro "Class is not supported" on shortcut phase creation;~~
-- Fixed in OCA 3.0.3/3.0.4 ~~Chrome has stability and crash randomy. Extension isn't supported for now. Downloads crash application or has network error, depend of version;~~
 - Firefox 55-116 working with some limitations;
-- Firefox since version 54 (32 bit) doesn't work on Windows XP x64. Chrome 61+ does not work either;
+- As of OCA 3.0.5, applications that were under x86 now run on Windows XP/Server 2003 x64 ~~Firefox since version 54 (32 bit) doesn't work on Windows XP x64. Chrome 61+ does not work either;~~
 - The packages cannot be integrate with nlite to Windows Iso, because use a tool called "SFXCAB Substitute", not standard Microsoft version;
 - Standard .Net Framework Installers starting 4.6 ins't supported for now. You need a repacked version like did here: https://github.com/abbodi1406/dotNetFx4xW7. And avaliable like here: https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251. Other versions are avaliable too, search on forum topics;
 - Palemoon version 27-31 not download anything. Download not start;
@@ -148,9 +145,6 @@ Some screenshots of Applicaions running on XP/Server 2003:
 
 **Microsoft Chess 3d**
 ![Chess3d](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/bd1ad0c6-edde-4ff2-a6e0-074c7379fab6)
-
-**Telegram 4.14**
-![Telegram-Desktop](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/73e13167-49b8-4282-81cb-969435046dde)
 
 **Libre Office 24 (latest)**
 ![LibreOffice](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/11fd191d-270c-428d-8d41-0498e8fafb3b)

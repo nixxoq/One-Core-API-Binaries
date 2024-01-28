@@ -1,7 +1,7 @@
 **Добро пожаловать в бинарники One-Core-API!**
 ***
 **Language:**    
-[English](README.md) | [简体中文](README_CN.md) | [Русский](README_RU.md) | [Українська](README_UK.md) | [日本語](README_JP.md)
+[English](README.md) | [简体中文](README_CN.md) | [Русский](README_RU.md) | [Українська](README_UK.md) | [日本語](README_JP.md) | [Português do Brasil](README_BR.md)
 ***
 
 Этот репозиторий содержит бинарные версии проекта One-Core-API. Они совместимы с Windows Server 2003 SP2, Windows XP SP3 и Windows XP x64 SP2.
@@ -32,7 +32,7 @@
 - **Branding**: Новая система брендинга (branding system), введенная в Windows Vista, необходимая для пакетов D3D и Modern Setup;
 
 **Порядок установки пакетов:**
-- **Обычный порядок**: Base -> Additional Dlls -> API-SET -> Branding -> D3d -> Modern Setup -> Driver Update -> App Compat;
+- **Обычный порядок**: Base -> Additional Dlls -> Branding -> D3d -> Driver Update -> App Compat;
 
 - **Отдельные пакеты (не требуют установки других пакетов, только по желанию)**
   - **App Compat only:** Этот пакет может быть установлен без каких-либо других пакетов;
@@ -92,15 +92,12 @@
 
 
 **Известные ограничения:**
-- Диалоги открытия/сохранения в нескольких приложениях работают не полностью, поскольку реализация новой функции есть в Windows Vista, называемой IFileDialog. Работа продолжается;
-- При использовании Firefox 56+ вы можете столкнуться с проблемами загрузки страниц. Чтобы решить эту проблему, начиная с версии 55 и заканчивая 72, необходимо создать переменную окружение под названием MOZ_FORCE_DISABLE_E10S со значением 1. Для версий, начиная с 73, значением будет номер версии, то есть, например, 73.0.0 (проверьте номер версии).
+- Исправлено в OCA 3.0.5 ~~Диалоги открытия/сохранения в нескольких приложениях работают не полностью, поскольку реализация новой функции есть в Windows Vista, называемой IFileDialog. Работа продолжается;~~
 - Некоторые места в диалогах или окнах поддерживают только английский язык. Работа над интернационализацией продолжается;
 - Установщики новых приложений могут не работать, например Chrome, Maxthon, Discord, Team viewer и т. д. падают, и приложение не устанавливается. Необходимо 
 использовать предустановленную версию, скопированную из другой операционной системы;
-- Исправлено в версии 3.0.4 ~~Некоторые программы установки, например VS Code и Skype, выдают ошибку "Class is not supported" при создании фазы ярлыка;~~
-- Исправлено в OCA 3.0.3/3.0.4 ~~В Chrome наблюдается нестабильность и случайные сбои. Расширение пока не поддерживается. В зависимости от версии, при загрузке происходит сбой приложения или ошибка сети;~~
 - Firefox 55-116 работает с некоторыми ограничениями;
-- Firefox начиная с версии 54 (32 бит) не работает на Windows XP x64. Chrome 61+ также не работает;
+- Начиная с версии OCA 3.0.5, приложения, которые были под х86, теперь работают на Windows XP/Server 2003 x64 ~~Firefox начиная с версии 54 (32 бит) не работает на Windows XP x64. Chrome 61+ также не работает;~~
 - Пакеты не могут быть интегрированы с помощью nlite в Windows Iso, так как используют инструмент под названием "SFXCAB Substitute", а не стандартную версию Microsoft;
 - Стандартные инсталляторы .Net Framework, начиная с 4.6, пока не поддерживаются. Вам нужна перепакованная версия, как здесь: https://github.com/abbodi1406/dotNetFx4xW7. И доступная, как здесь: https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251. Другие версии тоже доступны, ищите в темах на форуме;
 - Palemoon версии 27-31 ничего не скачивается. Загрузка не начинается;
@@ -133,6 +130,9 @@
 **Basilisk**
 ![image_2022_04_08T21_38_17_976Z](https://user-images.githubusercontent.com/5159776/178077859-079bfca4-bdb6-402e-8991-b88e7dfe387c.png)
 
+**Vivaldi**
+![vivaldi](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/86d5895f-977a-414f-b0d5-0e877a658676)
+
 **Spotify (Для Windows 7)**
 ![Spotify-Windows7](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/09de7c20-8670-45dc-9471-a6db9349abd0)
 
@@ -142,15 +142,16 @@
 **Microsoft Chess 3d**
 ![Chess3d](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/bd1ad0c6-edde-4ff2-a6e0-074c7379fab6)
 
-**Telegram Desktop 4.14**
-![Telegram-Desktop](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/73e13167-49b8-4282-81cb-969435046dde)
-
 **Libre Office 24 (последняя версия)**
 ![LibreOffice](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/11fd191d-270c-428d-8d41-0498e8fafb3b)
+![Writer-LibreOffice](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/e389a39b-febd-45f6-9c6f-25f64e460142)
 
 **Discord 0.309**
 ![Discord-Login](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/8a4c12b5-19fc-454d-b02a-a1db807d3900)
 ![Discord](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/eb673541-4e66-4c76-867e-346edbaaa0af)
+
+**Telegram Desktop**
+![Telegram-Desktop](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/d23b9add-629d-45a3-a8e1-c331271bc0d3)
 
 **Zoom meeting**
 ![Zoom](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/d002cf1b-c5f4-4c0c-b629-00e031a56765)
@@ -165,9 +166,7 @@
 ![StickyNotes](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/669ba3e4-b831-4a96-ad40-d87e3e9531e2)
 
 **Windows 7 Paint**
-![Windows7 Paint](https://user-images.githubusercontent.com/5159776/192194273-de70c23e-8731-4fb6-96c1-9bee98947269.PNG)
+![Paint](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/81728a44-c9e7-41e8-b68b-8ea7b119ebba)
 
 **Windows 7 Wordpad**
 ![Wordpad](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/9dac02c7-7139-47fe-8732-ccd9ef91090b)
-
-
