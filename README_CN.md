@@ -115,6 +115,16 @@
 - Opera 39-46可能需要遵循以下参数才能启动：--disable-gpu（以防止黑屏）和--single-process（以防止永远加载首页）；
 - 使用Dwrite的Qt5应用程序在启动时崩溃。存在一些问题，例如删除dwrite后出现的黑屏（应用程序可以启动并且可以使用，但是会有黑屏等）。
 
+**报告问题**
+
+**笔记:**
+
+如果您在使用Chrome或基于Chromium的浏览器时遇到问题，请在此链接中报告: https://github.com/Skulltrail192/One-Core-API-Binaries/issues/178.
+
+对于与Firefox或基于Gecko的浏览器相关的问题，请使用以下GitHub链接进行报告: https://github.com/Skulltrail192/One-Core-API-Binaries/issues/214.
+
+如果问题与BSOD（蓝屏死机）相关，请考虑在此页面上报告该问题: https://github.com/Skulltrail192/One-Core-API-Binaries/issues/233.
+
 **问题报告**  
 要帮助重现问题，强烈建议**始终**遵循此模板：
 - 描述发生的情况。
