@@ -88,7 +88,7 @@
 - Zoom；
 - 其他应用程序；
 - Node 10.24；
-- Winrar 6.24（最新版本）；
+- Winrar 7.0 Beta 4（最新版本）；
 - Directx 9EX、10和11游戏：
   - 极品飞车17：最高通缉(Need for Speed Most Wanted 2012);
   - 极品飞车16：亡命天涯(Need for Speed The Run);
@@ -103,15 +103,12 @@
 - 运行Firefox 56+可能会遇到页面加载问题。要解决此问题，从版本55到72，您必须创建一个名为MOZ_FORCE_DISABLE_E10S的环境变量。它将是环境变量的键，值为1。对于73版本及更高版本，值将是版本号，例如73.0.0（请检查版本号）；
 - 对话框或窗口中的某些地方仅保留英文。国际化工作正在进行中；
 - 新应用程序安装程序可能不起作用，例如Chrome、Maxthon、Discord、TeamViewer等崩溃并且应用程序未安装。需要使用从其他操作系统复制的预安装版本；
-- Firefox 55-78存在一些限制；
-- Firefox 54 32位版本在Windows XP x64上无法运行。Chrome 61+也不起作用；
 - 无法将这些包集成到Windows Iso中，因为使用了一个称为“SFXCAB Substitute”的工具，而不是标准的Microsoft版本；
 - 标准的.NET Framework安装程序从4.6开始目前不受支持。您需要像这里做的一样重新打包版本：https://github.com/abbodi1406/dotNetFx4xW7  
   也可以在此处找到其他版本：https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251  
   也有其他版本，请在论坛主题中搜索；
 - Palemoon版本27-31无法下载任何内容。下载不起作用；
 - Opera 39-46可能需要遵循以下参数才能启动：--disable-gpu（以防止黑屏）和--single-process（以防止永远加载首页）；
-- 使用Dwrite的Qt5应用程序在启动时崩溃。存在一些问题，例如删除dwrite后出现的黑屏（应用程序可以启动并且可以使用，但是会有黑屏等）。
 
 **报告问题**
 

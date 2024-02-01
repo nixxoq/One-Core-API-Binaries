@@ -81,7 +81,7 @@ Atenção: Sempre que o pacote exigir a reinicialização do sistema, faça isso
 - Zoom;
 - Várias outras aplicações;
 - Node 10.24;
-- Winrar 6.24 (última versão);
+- Winrar 7.0 Beta 4 (última versão);
 - Jogos do DirectX 9EX, 10 e 11: 
   - Need for Speed Most Wanted 2012;
   - Need for Speed The Run;
@@ -92,17 +92,13 @@ Atenção: Sempre que o pacote exigir a reinicialização do sistema, faça isso
 - Kate 23.08.1 (Somente Windows XP x64 por enquanto)
   
 **Limitações conhecidas:**
-- Diálogos de Abrir e Salvar de várias aplicações não funcionam perfeitamente porque são implementações do Vista, chamadas IFileDialog. Trabalho em progresso;
 - Você pode ter problemas de carregamento de páginas no Firefox 56+. Para resolver isso, nas versões 55 até a 72, você precisa criar uma variável de ambiente chamada MOZ_FORCE_DISABLE_E10S. Ela será a chave da variável de ambiente de usuário, e o seu valor será 1. A partir da veresão 73, o valor será igual ao da versão, neste caso, 73.0.0, por exemplo (verifique o número da versão).
 - Alguns lugares nas caixas de diálogo ou janelas podem ficar em inglês. Internacionalização ainda está em progresso.
 - Instaladores de aplicativos modernos como o Chrome, Maxthon, Discord, Team viewer, etc. podem não funcionar e travar. É necessário usar uma versão pré-instalada e copiada de outro sistema.
-- Firefox 55-116 funcionando com algumas limitações;
-- Firefox a partir da versão 54 (32 bit) não funciona no Windows XP x64. Chrome 61+ também não funciona;
 - Estes pacotes não podem ser integradas em uma ISO do Windows, porque eles usam uma ferramenta chamada "SFXCAB Substitute", que é diferente da versão da Microsoft;
 - Instaladores do .Net Framework a partir da versão 4.6 não funcionam no momento. Você precisa de uma versão reembalada utilizando este guia: https://github.com/abbodi1406/dotNetFx4xW7. Disponível também neste link: https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251. Outras versões também estão disponíveis, procure nos tópicos do fórum;
 - Palemoon nas versões 27-31 não faz downloads;
 - Opera 39 - 46 podem precisar dos seguintes parâmetros: --disable-gpu (para evitar tela preta) and --single-process(para evitar longos tempos de inicialização na primeira vez);
-- Aplicativos Qt5 que utilizam Dwrite travam quando iniciados. Eles tem alguns problemas como tela preta se remover o Dwrite (no entanto, os aplicativos iniciam e podem ser utilizados)
 
 **Relatar problemas**
 Para ajudar a reproduzir problemas, é **sempre** recomendado seguir este padrão:
