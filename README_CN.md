@@ -63,7 +63,7 @@
 - Visual Studio Code 1.83.1；
 - Chrome版本到123以上！；
 - Opera版本最高到106；
-- Firefox版本最高到122（存在一些问题，需要解决方案)；
+- Firefox版本最高到122（有一些错误)；
 - Microsoft Edge版本最高到122；
 - Brave版本1.62.153 (Chromium 121)；
 - Yandex最新版本；
@@ -75,12 +75,12 @@
 - Vivaldi最新版本；
 - JDK 1.8（目前仅适用于Windows XP x64)；
 - Java Alternative JDK或OpenJDK直到版本21（其他版本可能也有效）。您可以从以下网址下载：https://bell-sw.com/pages/downloads/#/java-11-lts；
-- Epic Browser 94；
+- Epic Browser 120；
 - Python 3.6；
 - .Net Framework最高到4.8；
 - Geekbench 4.2；
 - Performance Test；
-- Adobe Reader DC（2017年版）；
+- Adobe Reader DC（2018年版）；
 - Windows 7游戏；
 - Windows 7画图(小畫家)；
 - Windows 7写字板；
