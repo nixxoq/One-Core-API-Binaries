@@ -61,16 +61,16 @@
 - Adobe Photoshop CC 2018;
 - Filezilla（最新版本）；
 - Visual Studio Code 1.83.1；
-- Chrome版本到122以上！；
-- Opera版本最高到105；
-- Firefox版本最高116（存在一些问题，需要解决方案)；
-- Microsoft Edge版本115以上；
-- Brave版本117以上；
+- Chrome版本到123以上！；
+- Opera版本最高到106；
+- Firefox版本最高到122（存在一些问题，需要解决方案)；
+- Microsoft Edge版本最高到122；
+- Brave版本1.62.153 (Chromium 121)；
 - Yandex最新版本；
-- Thorium浏览器版本109以上；
-- Supermium版本117以上；
+- Thorium浏览器最高到109；
+- Supermium版本122以上；
 - Seamonkey版本2.53.10以上；
-- Thunderbird版本116x以上；
+- Thunderbird版本121以上；
 - 傲游浏览器版本7.1.6以上；
 - Vivaldi最新版本；
 - JDK 1.8（目前仅适用于Windows XP x64)；
@@ -82,9 +82,10 @@
 - Performance Test；
 - Adobe Reader DC（2017年版）；
 - Windows 7游戏；
+- Windows 7画图(小畫家)；
+- Windows 7写字板；
 - Vista原生应用程序；
-- Spotify在Windows XP/Vista结束支持后，版本1.0.60；
-- Yandex浏览器（最新版本）；
+- Spotify Windows 7和Windows 10版本；
 - Zoom；
 - 其他应用程序；
 - Node 10.24；
