@@ -61,7 +61,7 @@ Warning: Always if OCA package require restart, do it. If you install all packag
 - Brave up to version 1.62.153 (Chromium 121);
 - Yandex Browser latest version;
 - Thorium browser up to 109;
-- Supermium up to version 117;
+- Supermium up to version 122;
 - Seamonkey up to version 2.53.10;
 - Thunderbird up to version 121;
 - Maxthon up to version 7.1.6;
@@ -79,7 +79,6 @@ Warning: Always if OCA package require restart, do it. If you install all packag
 - Windows 7 Wordpad;
 - Windows Vista native Applications;
 - Spotify Windows 7 and Windows 10 version;
-- Yandex browser (latest);
 - Zoom;
 - Several other applications;
 - Node 10.24;
