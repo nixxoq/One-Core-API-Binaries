@@ -88,7 +88,8 @@
 - Zoom；
 - 其他应用程序；
 - Node 10.24；
-- Winrar 6.24（最新版本）；
+- Telegram Desktop;
+- Winrar 7.0 Beta 4（最新版本）；
 - Directx 9EX、10和11游戏：
   - 极品飞车17：最高通缉(Need for Speed Most Wanted 2012);
   - 极品飞车16：亡命天涯(Need for Speed The Run);
@@ -101,7 +102,7 @@
 **已知限制：**  
 - 多个应用程序的打开/保存对话框因为使用了Vista实现的IFileDialog而无法完全工作。正在进行中的工作；
 - 运行Firefox 56+可能会遇到页面加载问题。要解决此问题，从版本55到72，您必须创建一个名为MOZ_FORCE_DISABLE_E10S的环境变量。它将是环境变量的键，值为1。对于73版本及更高版本，值将是版本号，例如73.0.0（请检查版本号）；
-- 对话框或窗口中的某些地方仅保留英文。国际化工作正在进行中；
+- 对话框或窗口中的某些地方仅保留英文。  国际化进程正在进行中。  安装的mui包的一些问题；
 - 新应用程序安装程序可能不起作用，例如Chrome、Maxthon、Discord、TeamViewer等崩溃并且应用程序未安装。需要使用从其他操作系统复制的预安装版本；
 - 3.0.4版本已修复 ~~一些安装程序如VS Code和Skype在创建快捷方式阶段会生成“类不受支持”的错误；~~
 - 3.0.3/3.0.4版本已修复 ~~版本已修复Chrome随机稳定性问题和崩溃。当前不支持扩展。下载可能会崩溃应用程序或出现网络错误，具体取决于版本；~~
@@ -111,9 +112,8 @@
 - 标准的.NET Framework安装程序从4.6开始目前不受支持。您需要像这里做的一样重新打包版本：https://github.com/abbodi1406/dotNetFx4xW7  
   也可以在此处找到其他版本：https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251  
   也有其他版本，请在论坛主题中搜索；
-- Palemoon版本27-31无法下载任何内容。下载不起作用；
-- Opera 39-46可能需要遵循以下参数才能启动：--disable-gpu（以防止黑屏）和--single-process（以防止永远加载首页）；
-- 使用Dwrite的Qt5应用程序在启动时崩溃。存在一些问题，例如删除dwrite后出现的黑屏（应用程序可以启动并且可以使用，但是会有黑屏等）。
+- 新版本的pale moon可能面临错误.;
+- Opera 39 - 50 可能需要以下参数才能启动：--disable-gpu（以防止黑屏）和 --single-process（以防止永远加载第一页）;
 
 **报告问题**
 
