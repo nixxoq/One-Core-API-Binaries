@@ -61,33 +61,35 @@
 - Adobe Photoshop CC 2018;
 - Filezilla（最新版本）；
 - Visual Studio Code 1.83.1；
-- Chrome版本到122以上！；
-- Opera版本最高到105；
-- Firefox版本最高116（存在一些问题，需要解决方案)；
-- Microsoft Edge版本115以上；
-- Brave版本117以上；
+- Chrome版本到123以上！；
+- Opera版本最高到106；
+- Firefox版本最高到122（有一些错误)；
+- Microsoft Edge版本最高到122；
+- Brave版本1.62.153 (Chromium 121)；
 - Yandex最新版本；
-- Thorium浏览器版本109以上；
-- Supermium版本117以上；
+- Thorium浏览器最高到109；
+- Supermium版本122以上；
 - Seamonkey版本2.53.10以上；
-- Thunderbird版本116x以上；
+- Thunderbird版本121以上；
 - 傲游浏览器版本7.1.6以上；
 - Vivaldi最新版本；
 - JDK 1.8（目前仅适用于Windows XP x64)；
 - Java Alternative JDK或OpenJDK直到版本21（其他版本可能也有效）。您可以从以下网址下载：https://bell-sw.com/pages/downloads/#/java-11-lts；
-- Epic Browser 94；
+- Epic Browser 120；
 - Python 3.6；
 - .Net Framework最高到4.8；
 - Geekbench 4.2；
 - Performance Test；
-- Adobe Reader DC（2017年版）；
+- Adobe Reader DC（2018年版）；
 - Windows 7游戏；
+- Windows 7画图(小畫家)；
+- Windows 7写字板；
 - Vista原生应用程序；
-- Spotify在Windows XP/Vista结束支持后，版本1.0.60；
-- Yandex浏览器（最新版本）；
+- Spotify Windows 7和Windows 10版本；
 - Zoom；
 - 其他应用程序；
 - Node 10.24；
+- Telegram Desktop;
 - Winrar 7.0 Beta 4（最新版本）；
 - Directx 9EX、10和11游戏：
   - 极品飞车17：最高通缉(Need for Speed Most Wanted 2012);
@@ -101,7 +103,7 @@
 **已知限制：**  
 - 多个应用程序的打开/保存对话框因为使用了Vista实现的IFileDialog而无法完全工作。正在进行中的工作；
 - 运行Firefox 56+可能会遇到页面加载问题。要解决此问题，从版本55到72，您必须创建一个名为MOZ_FORCE_DISABLE_E10S的环境变量。它将是环境变量的键，值为1。对于73版本及更高版本，值将是版本号，例如73.0.0（请检查版本号）；
-- 对话框或窗口中的某些地方仅保留英文。国际化工作正在进行中；
+- 对话框或窗口中的某些地方仅保留英文。  国际化进程正在进行中。  安装的mui包的一些问题；
 - 新应用程序安装程序可能不起作用，例如Chrome、Maxthon、Discord、TeamViewer等崩溃并且应用程序未安装。需要使用从其他操作系统复制的预安装版本；
 - 无法将这些包集成到Windows Iso中，因为使用了一个称为“SFXCAB Substitute”的工具，而不是标准的Microsoft版本；
 - 标准的.NET Framework安装程序从4.6开始目前不受支持。您需要像这里做的一样重新打包版本：https://github.com/abbodi1406/dotNetFx4xW7  
