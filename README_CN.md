@@ -1,7 +1,7 @@
 **欢迎使用One-Core-API二进制文件！**
 ***
 **语言:**    
-[English](README.md) | [简体中文](README_CN.md) | [Русский](README_RU.md) | [Українська](README_UK.md) | [日本語](README_JP.md)
+[English](README.md) | [简体中文](README_CN.md) | [Русский](README_RU.md) | [Українська](README_UK.md) | [日本語](README_JP.md) | [Português do Brasil](README_BR.md)
 ***
 
 该存储库包含One-Core-API项目的二进制发布版本。这些版本兼容于Windows Server 2003 SP2、Windows XP SP3和Windows XP x64 SP2。
@@ -32,7 +32,7 @@
 - **Branding（品牌）**：引入了Windows Vista上的新品牌系统，D3D和Modern Setup包都需要此包。
 
 **包的安装顺序：**  
-- **常规顺序**：Base-> Additional Dlls -> API-SET -> Branding -> D3d -> Modern Setup -> Driver Update -> App Compat；
+- **常规顺序**：Base-> Additional Dlls -> Branding -> D3d -> Driver Update -> App Compat；
 - **仅Base包（不需要其他包一起安装，除非您需要）**
   - **仅App Compat（应用程序兼容性）**：此包可以单独安装；
   - **仅Driver Update（驱动程序更新）**：此包可以单独安装；
@@ -105,16 +105,12 @@
 - 运行Firefox 56+可能会遇到页面加载问题。要解决此问题，从版本55到72，您必须创建一个名为MOZ_FORCE_DISABLE_E10S的环境变量。它将是环境变量的键，值为1。对于73版本及更高版本，值将是版本号，例如73.0.0（请检查版本号）；
 - 对话框或窗口中的某些地方仅保留英文。  国际化进程正在进行中。  安装的mui包的一些问题；
 - 新应用程序安装程序可能不起作用，例如Chrome、Maxthon、Discord、TeamViewer等崩溃并且应用程序未安装。需要使用从其他操作系统复制的预安装版本；
-- 3.0.4版本已修复 ~~一些安装程序如VS Code和Skype在创建快捷方式阶段会生成“类不受支持”的错误；~~
-- 3.0.3/3.0.4版本已修复 ~~版本已修复Chrome随机稳定性问题和崩溃。当前不支持扩展。下载可能会崩溃应用程序或出现网络错误，具体取决于版本；~~
-- Firefox 55-78存在一些限制；
-- Firefox 54 32位版本在Windows XP x64上无法运行。Chrome 61+也不起作用；
 - 无法将这些包集成到Windows Iso中，因为使用了一个称为“SFXCAB Substitute”的工具，而不是标准的Microsoft版本；
 - 标准的.NET Framework安装程序从4.6开始目前不受支持。您需要像这里做的一样重新打包版本：https://github.com/abbodi1406/dotNetFx4xW7  
   也可以在此处找到其他版本：https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251  
   也有其他版本，请在论坛主题中搜索；
-- 新版本的pale moon可能面临错误.;
-- Opera 39 - 50 可能需要以下参数才能启动：--disable-gpu（以防止黑屏）和 --single-process（以防止永远加载第一页）;
+- Palemoon版本27-31无法下载任何内容。下载不起作用；
+- Opera 39-46可能需要遵循以下参数才能启动：--disable-gpu（以防止黑屏）和--single-process（以防止永远加载首页）；
 
 **报告问题**
 

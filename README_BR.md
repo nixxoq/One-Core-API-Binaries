@@ -33,7 +33,7 @@ Atenção: Sempre que o pacote exigir a reinicialização do sistema, faça isso
 - **Branding**: Novo sistema de marcas introduzido no Windows Vista, exigido para a instalação dos pacotes D3D e Modern Setup;
 
 **Ordem de instalação dos pacotes:**
-- **Ordem comum**: Base-> Additional Dlls -> API-SET -> Branding -> D3d -> Modern Setup -> Driver Update -> App Compat;
+- **Ordem comum**: Base-> Additional Dlls -> Branding -> D3d -> Driver Update -> App Compat;
 
 - **Pacotes separados (não requer a instalação de outros pacotes, somente se você desejar)**
   - **Somente App Compat:** Este pacote pode ser instalado sem a necessidade de outros pacotes; 
@@ -81,7 +81,7 @@ Atenção: Sempre que o pacote exigir a reinicialização do sistema, faça isso
 - Zoom;
 - Várias outras aplicações;
 - Node 10.24;
-- Winrar 6.24 (última versão);
+- Winrar 7.0 Beta 4 (última versão);
 - Jogos do DirectX 9EX, 10 e 11: 
   - Need for Speed Most Wanted 2012;
   - Need for Speed The Run;
@@ -92,17 +92,13 @@ Atenção: Sempre que o pacote exigir a reinicialização do sistema, faça isso
 - Kate 23.08.1 (Somente Windows XP x64 por enquanto)
   
 **Limitações conhecidas:**
-- Diálogos de Abrir e Salvar de várias aplicações não funcionam perfeitamente porque são implementações do Vista, chamadas IFileDialog. Trabalho em progresso;
 - Você pode ter problemas de carregamento de páginas no Firefox 56+. Para resolver isso, nas versões 55 até a 72, você precisa criar uma variável de ambiente chamada MOZ_FORCE_DISABLE_E10S. Ela será a chave da variável de ambiente de usuário, e o seu valor será 1. A partir da veresão 73, o valor será igual ao da versão, neste caso, 73.0.0, por exemplo (verifique o número da versão).
 - Alguns lugares nas caixas de diálogo ou janelas podem ficar em inglês. Internacionalização ainda está em progresso.
 - Instaladores de aplicativos modernos como o Chrome, Maxthon, Discord, Team viewer, etc. podem não funcionar e travar. É necessário usar uma versão pré-instalada e copiada de outro sistema.
-- Firefox 55-116 funcionando com algumas limitações;
-- Firefox a partir da versão 54 (32 bit) não funciona no Windows XP x64. Chrome 61+ também não funciona;
 - Estes pacotes não podem ser integradas em uma ISO do Windows, porque eles usam uma ferramenta chamada "SFXCAB Substitute", que é diferente da versão da Microsoft;
 - Instaladores do .Net Framework a partir da versão 4.6 não funcionam no momento. Você precisa de uma versão reembalada utilizando este guia: https://github.com/abbodi1406/dotNetFx4xW7. Disponível também neste link: https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251. Outras versões também estão disponíveis, procure nos tópicos do fórum;
 - Palemoon nas versões 27-31 não faz downloads;
 - Opera 39 - 46 podem precisar dos seguintes parâmetros: --disable-gpu (para evitar tela preta) and --single-process(para evitar longos tempos de inicialização na primeira vez);
-- Aplicativos Qt5 que utilizam Dwrite travam quando iniciados. Eles tem alguns problemas como tela preta se remover o Dwrite (no entanto, os aplicativos iniciam e podem ser utilizados)
 
 **Relatar problemas**
 Para ajudar a reproduzir problemas, é **sempre** recomendado seguir este padrão:
@@ -142,11 +138,12 @@ Alguns prints de aplicativos rodando no Windows XP/Server 2003:
 **Microsoft Chess 3D**
 ![Chess3d](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/bd1ad0c6-edde-4ff2-a6e0-074c7379fab6)
 
-**Telegram 4.14**
-![Telegram-Desktop](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/73e13167-49b8-4282-81cb-969435046dde)
+**Telegram Desktop**
+![Telegram-Desktop](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/d23b9add-629d-45a3-a8e1-c331271bc0d3)
 
 **Libre Office 24 (última versão)**
 ![LibreOffice](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/11fd191d-270c-428d-8d41-0498e8fafb3b)
+![Writer-LibreOffice](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/e389a39b-febd-45f6-9c6f-25f64e460142)
 
 **Discord 0.309**
 ![Discord-Login](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/8a4c12b5-19fc-454d-b02a-a1db807d3900)
@@ -165,7 +162,7 @@ Alguns prints de aplicativos rodando no Windows XP/Server 2003:
 ![StickyNotes](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/669ba3e4-b831-4a96-ad40-d87e3e9531e2)
 
 **Paint do Windows 7**
-![Paint](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/11f354d4-5392-4edd-95c7-13c6faa37362)
+![Paint](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/81728a44-c9e7-41e8-b68b-8ea7b119ebba)
 
 **Wordpad do Windows 7**
 ![Wordpad](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/9dac02c7-7139-47fe-8732-ccd9ef91090b)
