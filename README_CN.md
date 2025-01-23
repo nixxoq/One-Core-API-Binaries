@@ -10,7 +10,7 @@
 
 **报告问题的主要指南，主要是 BSOD（蓝屏死机）**
 
-- 电脑配置： 是虚拟机还是真机？安装的处理器、内存是多少？是 AHCI、IDE、NVME 还是 SCSI？
+- 电脑配置： 是虚拟机还是真机？安装的处理器、内存是多少？硬盘控制器是 AHCI、IDE、NVME 还是 SCSI？
 - Windows 配置： 版本是什么？是否为自定义 ISO/构建？安装了哪些更新？服务包是什么？安装了哪些程序？
 - 使用的 ISO 是什么？一定要提供链接；
 - 重现 BSOD 的步骤。例如：我安装了 OCA base，同时安装了 XP Integral Edition，并安装/删除了所有选项。或者：我安装了 Avast 或其他杀毒软件，然后安装了 OCA base；
@@ -21,7 +21,14 @@
 - 该软件使用各个系统中的修改文件，包含仍处于测试或实验阶段的其他文件，并且只有一名开发人员。换句话说，不可能预测所有可能类型的计算机或虚拟机上的所有可能场景。 XP/2003和Vista之间，新的API、新技术以及对现有API的修改都有最大的飞跃，因此NT5很难达到与NT6相同水平的兼容性。保持冷静，谨慎，在说这个软件不好或“垃圾”之前，请尽快报告问题中的缺陷，我们将对其进行分析，并尝试纠正问题。帮助我，抱怨或诽谤该软件对任何人都没有任何好处。
 
 **实验性One-Core-API版本**:
+该版本仓库包含具有新功能的 One-Core-API 实验性版本：
 https://github.com/shorthorn-project/One-Core-API-Binaries-Canary
+
+**基于 One-Core-API 系统的扩展功能**:
+https://github.com/shorthorn-project/One-Core-API-Extras
+
+**基于 One-Core-API 系统的新部署系统工具**:
+https://github.com/Skulltrail192/One-Core-API-Tools
 
 **语言支持**：  
 支持所有 Windows XP 和 Windows Server 2003 支持的语言。
