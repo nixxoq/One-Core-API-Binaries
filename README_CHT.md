@@ -17,17 +17,17 @@
 
 <!-- **官方Discord服務器**: <h2>https://discord.gg/eRcGuFtn6p</h2> -->
 
-- [主要功能](#main-features)
-  - [使用前須知](#before-using-this-software)
-- [如何安裝One-Core-API](#how-to-install-one-core-api)
-- [如何安裝One-Core-API](#how-to-uninstall-one-core-api)
-- [應用程式相容性](#application-compatibility)
-- [已知限制](#known-limitations)
-- [提交問題前...](#before-submitting-an-issue)
-- [儲存庫結構](#repository-structure)
-- [額外資訊和連結](#extra-information-and-links)
-  - [官方Discord服務器](#official-discord-server)
-- [展示](#showcase--proof-of-concept)
+- [主要功能](#主要功能)
+  - [使用前須知](#使用前須知)
+- [如何安裝One-Core-API](#如何安裝One-Core-API)
+- [如何解除安裝One-Core-API](#如何解除安裝One-Core-API)
+- [應用程式相容性](#應用程式相容性)
+- [已知限制](#已知限制)
+- [提交問題前](#提交問題前)
+- [儲存庫結構](#儲存庫結構)
+- [額外資訊和鏈接](#額外資訊和鏈接)
+  - [官方Discord伺服器](#官方Discord伺服器)
+- [效果展示和概念驗證](#效果展示和概念驗證)
 
 <!-- **Main information and guid to report of issue and mainly, BSOD (Blue Screen of the Death)**
 
@@ -46,267 +46,267 @@ Warning: Always if OCA package require restart, do it. If you install all packag
 <!-- **Installation order of packages:**
 - **Common order**: just run One-Core-api-Pack.exe for your current platform: x86 or x64; -->
 
-## Main Features
+## 主要功能
 
-- **Allow support for run newer programs designed for modern Windows OS;**
-- **Allow support for new hardware with new drivers controllers;**
-- **Multi-language support for all Windows XP and Windows Server 2003 supported languages;**
+- **支援執行專為現代 Windows 作業系統設計的較新程式；**
+- **支援具有新驅動程式控制器的新硬體；**
+- **支援所有 Windows XP 和 Windows Server 2003 支援的語言；**
 
-### Before Using This Software
+### 使用前須知
 
-> This software utilizes modified files from the respective systems, and also includes files that are still in the testing or experimental phase, and <b>is developed by a single person</b>. Consequently, predicting all possible scenarios across various computer configurations or virtual machines is not feasible.
+> 本軟體使用了來自各個系統的修改文件，也包含一些仍處於測試或實驗階段的文件，並且<b>由一個人開發</b>。因此，預測各種電腦配置或虛擬機器上所有可能出現的情況是不切實際的。
 >
-> <h4>The transition between Windows XP/2003 and Vista marked a significant leap in the development of new APIs, technologies, and modifications to existing APIs. This makes it challenging to achieve the same level of compatibility between NT 5.x and NT 6.x systems.</h4>
+> <h4>Windows XP/2003 和 Vista 之間的過渡標誌著新 API、技術以及對現有 API 修改的開發取得了重大飛躍。這使得在 NT 5.x 和 NT 6.x 系統之間實現同等程度的兼容性變得極具挑戰性。 </h4>
 >
-> I kindly ask you to remain calm and cautious.
-> Before concluding that the software is flawed or "of poor quality," <b>please report any issues you encounter through the Github Issues or [Discord server](https://discord.gg/eRcGuFtn6p)</b>.
+> 請您保持冷靜和謹慎。
+> 在斷定軟體有缺陷或「品質低劣」之前，<b>請透過 Github Issues 或 [Discord 伺服器](https://discord.gg/eRcGuFtn6p)</b> 報告您遇到的任何問題。
 >
-> Please note that I cannot guarantee that all issues will be resolved. However, I will analyze them and make every effort to correct them.
+> 請注意，我無法保證所有問題都能解決。但是，我會分析這些問題並盡一切努力予以糾正。
 >
-> Your help is valuable, and complaints or negative feedback do not contribute to the improvement of the product.
+> 您的幫助非常寶貴，投訴或負面回饋無助於產品的改進。
 >
-> Due to prevent BSOD, the packages x86 now separted in three types: x86 (standard), x86 AVX (with AVX patch from Mox Ax) and x86 PAE. THe most stable is x86 standard. AVX patckaeg provide avx support for applications, preventing crash in new installers (only avaliable for XP x86 SP3). And PAE version provide 128gb RAM support, however, can cause several BSOD. Be careful and the use is by your risk;
+> 為防止藍色畫面死機 (BSOD)，x86 軟體包現在分為三種類型：x86（標準）、x86 AVX（包含 Mox Ax 提供的 AVX 修補程式）和 x86 PAE。 x86 標準版最穩定。 AVX 補丁為應用程式提供 AVX 支持，防止新安裝程式崩潰（僅適用於 XP x86 SP3）。 PAE 版本提供 128GB RAM 支持，但可能會引發多次 BSOD。請謹慎使用，風險自負；
 
-## How to install One-Core-API?
+## 如何安裝One-Core-API
 
-The One-Core-API uses the hotfix installation technology used up to Windows NT 5.x. In this way, you will notice that it is very similar to the installation of a Service Pack. You should go to the [Releases](https://github.com/Shorthorn-project/One-Core-API-Binaries/releases) section, choose the version you want to test and download the zipped file (.zip). After downloading, unzip the file and you will see that there are four zip files, for x86, x86 with AVX patch, x86 with PAE support and x64. Inside each folder, there will be an executable file with the name: One-Core-API-Pack.exe. Double-click on this file and follow the installation steps, which are basically: "Next, select accept the license, Next and finish". It's that simple.
+One-Core-API 採用了 Windows NT 5.x 之前的修補程式安裝技術。因此，您會發現它與 Service Pack 的安裝非常相似。您應該前往 [Releases](https://github.com/Shorthorn-project/One-Core-API-Binaries/releases) 部分，選擇要測試的版本並下載壓縮檔案 (.zip)。下載後，解壓縮文件，您將看到四個 zip 文件，分別用於 x86、帶有 AVX 補丁的 x86、支援 PAE 的 x86 和 x64。每個資料夾中都會有一個名為 One-Core-API-Pack.exe 的可執行檔。雙擊此文件並按照安裝步驟操作，步驟基本上如下：「下一步，選擇接受許可證，下一步，完成」。就是這麼簡單。
 
 <details>
-  <summary>Step by step guide with images</summary>
+  <summary>帶有圖像的分步指南</summary>
 
-  **Download:**
+  **下載:**
   ![image](https://github.com/user-attachments/assets/09322142-2655-47d2-9723-26fe6fb67494)
 
-  **Extract:**
+  **提取:**
   ![image](https://github.com/user-attachments/assets/7fbba140-5a87-45b3-bec0-a5236a676b04)
 
-  **Open the extracted content and choose your architecture. If the banner haven't x64, it is x86**
+  **打開解壓縮後的文件，選擇你的系統架構。如果橫幅上沒有 x64，則顯示 x86：**
   ![image](https://github.com/user-attachments/assets/6bdd8a39-9aac-4ee1-88fd-9fda4db144ea)
 
-  **Double click on executable:**
+  **雙擊安裝程式：**
   ![image](https://github.com/user-attachments/assets/e5e03ff2-4de5-475a-bbd8-755df687b187)
 
-  **Next:**
+  **下一步：**
   ![image](https://github.com/user-attachments/assets/2fd62bd9-b1a8-4e1d-8769-92b9bbcf2a6b)
 
-  **Accept and Next:**
+  **同意並下一步：**
   ![image](https://github.com/user-attachments/assets/ca62c9a2-9995-45cd-929e-b7613f9b389e)
 
-  **Wait for:**
+  **等待安裝：**
   ![image](https://github.com/user-attachments/assets/06b6fa4c-67dd-4149-9b97-bdee52c60bdb)
 
-  **Finish and enjoy!**
+  **安裝完成：**
   ![image](https://github.com/user-attachments/assets/8210f667-5f51-4d36-a4a5-7b5a4f24b278)
 
 </details>
 
-## How to uninstall One-Core-API?
+## 如何解除安裝One-Core-API
 
-As mentioned, One-Core-API uses the Hotfix installation technology of the Windows NT family up to version 5.x. Therefore, to uninstall it, you must go to the Control Panel -> Add/Remove Programs and select the "Show updates" option. After selecting this option, several updates will be displayed (if installed), including One-Core-API. Scroll down the window until One-Core-API is displayed, and click on it. An "Remove" button will appear. Click on the button and follow the uninstallation steps (basically, Next->Finish)
+如上所述，One-Core-API 使用 Windows NT 家族 5.x 及更高版本的修補程式安裝技術。因此，要解除安裝它，您必須轉到“控制台”->“新增/刪除程式”，然後選擇“顯示更新”選項。選擇此選項後，將顯示多個更新（如果已安裝），其中包括 One-Core-API。向下捲動窗口，直到顯示 One-Core-API，然後按一下它。將出現一個「刪除」按鈕。按一下該按鈕並按照卸載步驟操作（基本上是“下一步”->“完成”）。
 
 <details>
-  <summary>Step by step guide with images</summary>
+  <summary>帶有圖像的分步指南</summary>
   
-  **Go to Control Panel:**
+  **前往控制台：**
   ![image](https://github.com/user-attachments/assets/ceaf9dc2-135c-4f6b-8b22-ce5eb3f8d421)
 
-  **Click on Add Or Remove Programs:**
+  **點擊新增或刪除程式：**
   ![image](https://github.com/user-attachments/assets/b0d6406a-db6b-4ca8-b2b9-cc020df17950)
 
-  **Mark "Show Updates:"**
+  **標記“顯示更新："**
   ![image](https://github.com/user-attachments/assets/83bdef02-9704-4e77-a0b0-cba70a4de80a)
 
-  **The update will show up. Scroll down until show One-Core-API:**
+  **更新將會顯示。向下捲動直到顯示One-Core-API：**
   ![image](https://github.com/user-attachments/assets/2ff6137f-b621-4dff-9516-b45f83c3a013)
 
-  **Click on One-Core-API Pack and then, Remove button:**
+  **點擊One-Core-API Pack，然後點擊刪除按鈕:**
   ![image](https://github.com/user-attachments/assets/c66909ae-2e3a-4871-a320-e60c66210db9)
 
-  **The uninstall Windows will show up. Click in Next:**
+  **解除安裝Windows將會顯示。點擊“下一步”：**
   ![image](https://github.com/user-attachments/assets/71343989-6e16-48b4-982d-173a4b15774d)
 
-  **Wait for:**
+  **等待解除安裝：**
   ![image](https://github.com/user-attachments/assets/01401f4f-e4be-4e8a-82d2-3480f143fedd)
 
-  **Click in finish and then the Windows will restart:**
+  **點擊完成后，Windows會自動重啓：**
   ![image](https://github.com/user-attachments/assets/b6f06465-786f-4503-b71b-30e9224ad9fc)
 </details>
 
 </details>
 
-## Application Compatibility
+## 應用程式相容性
 
 <details>
-  <summary>Browsers and email clients</summary>
+  <summary>瀏覽器和電子郵件用戶端</summary>
   
-  - Chromium browsers (Chrome, Opera, Edge, and others) up to the latest version
-  - Chrome installer up to version 109 (version for Windows 10 is not supported yet)
-  - Gecko based (Firefox, Zen Browser) up to the latest versions (however, YouTube only works up to Firefox version 130);
-  - Seamonkey up to version 2.53.10;
-  - Maxthon up to version 7.1.6;
-  - Vivaldi up to the latest version;
-  - Epic Browser 120
-  - Thunderbird up to the latest version
+  - Chromium瀏覽器（Chrome、Opera、Edge 等）至最新版本；
+  - Chrome 安裝程式最高版本 109（Windows 10 版本尚未支援）；
+  - 基於 Gecko（Firefox、Zen 瀏覽器）直至最新版本（但是，YouTube 僅適用於 Firefox 版本 130）；
+  - Seamonkey 至 2.53.10 版本；
+  - Maxthon 至 7.1.6 版本；
+  - Vivaldi 至最新版本；
+  - Epic 瀏覽器 120
+  - Thunderbird 至最新版本
 
 </details>
 
 <details>
-  <summary>Messengers and other communication programs</summary>
+  <summary>Messengers即時通訊和其他通訊程序</summary>
   
   - Discord 0.309.0;
-  - Legocord (Discord fork) latest;
-  - Telegram Desktop;
-  - Line;
-  - Zoom;
-  - Filezilla (latest version);
+  - Legocord (Discord fork) 最新版本；
+  - Telegram Desktop；
+  - Line；
+  - Zoom；
+  - Filezilla (最新版)；
   - TeamViewer 14
 </details>  
 
 <details>
-  <summary>Office apps</summary>
+  <summary>Office 應用</summary>
 
-  - LibreOffice 24.0.x (latest version);
-  - Adobe Reader DC (up to 2024);
+  - LibreOffice 24.0.x (最新版本)；
+  - Adobe Reader DC (最高到2024)；
   - Foxit PDF Reader (2023)
 
 </details>
 
 <details>
-  <summary>IDE's and programming languages</summary>
+  <summary>IDE和程式語言</summary>
 
-  - JetBrains IDE up to the latest releases (2024);
-  - Visual Studio 2012 and Visual Studio 2013;
-  - Eclipse IDE up to the latest version;
-  - Visual Studio Code (and forks like Codium) up to the latest version;
-  - Android Studio up to the latest version;
-  - NetBeans up to the latest version;
-  - Python 3.6 (3.8/3.9 may also work, only the [mod](https://mega.nz/folder/KxExlAiC#L9rAQ5kTCtlHgZUwaxMpgw) version)
+  - JetBrains IDE 最新版本（2024）；
+  - Visual Studio 2012與Visual Studio 2013；
+  - Eclipse IDE至最新版本；
+  - Visual Studio Code（以及像Codium的分叉）至最新版本；
+  - Android Studio至最新版本；
+  - NetBeans至最新版本；
+  - Python 3.6（3.8/3.9也可能有效, 但僅限 [mod](https://mega.nz/folder/KxExlAiC#L9rAQ5kTCtlHgZUwaxMpgw) 版本）
 </details>
 
 <details>
   <summary>Java</summary>
   
-  - Java JDK and alternative JDK or OpenJDK up to version 24 (maybe other versions work as well). You can download from: https://bell-sw.com/pages/downloads/#/java-11-lts;
-  - JDK 1.8 (Windows XP x64 only for now)
+  - Java JDK 以及替代 JDK 或 OpenJDK，最高版本 24（其他版本也可以）。您可以從以下位置下載：https://bell-sw.com/pages/downloads/#/java-11-lts；
+  - JDK 1.8 (目前僅限Windows XP x64版)
 </details>
 
 <details>
-  <summary>Native apps from Windows Vista/7</summary>
+  <summary>Windows Vista/7 的原生應用</summary>
   
-  - Windows 7 games;
-  - Windows 7 Paint;
-  - Windows 7 Wordpad;
-  - Native applications from Windows Vista
+  - Windows 7游戲；
+  - Windows 7畫圖；
+  - Windows 7寫字板；
+  - Windows Vista的本機應用程式
 </details>
 
 <details>
 
-  <summary>OpenGL, Directx 9EX, 10, and 11 games</summary>
+  <summary>OpenGL, Directx 9EX、10、和11的游戲</summary>
 
-  **Warning!** 
+  **警告！** 
   
-  Now, OCA use Directx Native software render by default. For run a dx10+ game, you must need copy the files inside <Your installation letter>\Windows\System32\wined3d into the game installation. Otherwiser, the game will fail to start or get a black screen!
+  One-Core-Api現在默認使用Directx原生軟體渲染，要執行DirextX 10和以上的游戲，您必須將 <您的安裝盤符>\Windows\System32\wined3d 內的檔案複製到遊戲安裝目錄中。否則，遊戲將無法啟動或黑屏！
 
-  - Need for Speed Most Wanted 2012;
-  - Need for Speed The Run;
-  - Street Fighter V;
-  - Injustice: Gods Among Us;
-  - Assassin's Creed Black Flag;
-  - Crysis 1, 2, and 3 (directx 10-11 mode);
-  - GTA Trilogy Definitive Edition;
-  - GTA V;
-  - Minecraft 1.21.x
-  - Resident Evil 5 dx10 mode;
-  - Lost Planet;
-  - Far Cry 4;
-  - Far Cry Primal;
-  - Tropico 5;
-  - Metro Last Night;
-  - Cuphead;
-  - Horizon Turbo
+  - 極速快感：新全民公敵；
+  - 極速快感：亡命天涯；
+  - 快打旋風V；
+  - 超級英雄：武力對決；
+  - 刺客教條IV：黑旗；
+  - 孤島危機1、2、和3 （directx 10-11模式）；
+  - 俠盜獵車手三部曲：最終版；
+  - 俠盜獵車手V；
+  - 我的世界1.21.x；
+  - 惡靈古堡5（dx10 模式）；
+  - 失落的星球；
+  - 極地戰嚎4；
+  - 極地戰嚎：野蠻紀源；
+  - 海岛大亨5；
+  - 地鐵：最後的曙光；
+  - 茶杯頭；
+  - 追逐地平線Turbo
 </details>
 
 <details>
-  <summary>Other</summary>
+  <summary>其他</summary>
 
-  - Adobe Products (Photoshop, Illustrator, Dreamweaver, etc.) up to the 2019 version;
-  - .Net Framework up to 4.8;
-  - .NET 6.0
-  - Geekbench 4.2;
-  - Performance Test;
-  - Spotify for Windows 7 and for Windows 10;
-  - Node 10.24;
-  - Winrar 7.0 (latest);
+  - Adobe產品（Photoshop、Illustrator、Dreamweaver等）最高到2019版；
+  - .Net Framework最高到4.8；
+  - .NET 6.0；
+  - Geekbench 4.2；
+  - Performance Test；
+  - Spotify for Windows 7 and for Windows 10；
+  - Node 10.24；
+  - Winrar 7.0 （最新版）；
   - Postman
   - Dbeaver
   - Kate 23.08.1
 </details>
   
-## Known Limitations
+## 已知限制
 
-- Youtube on Firefox Starting version 131 not work. So, we recommend use version 115 or 128 ESR.
-- Some applications installers may not work, like some electron based apps (MS teams), Office 2013 or GIMP 3.0 RC2 etc crash and application isn't installed. Some installers and applications require AVX support by OS, what isn't supported at no. The, use a pre-installed version, copied from other operating system;
-- The packages cannot be integrate with nlite to Windows ISO, because use a tool called "SFXCAB Substitute", not standard Microsoft version;
-- Standard .Net Framework Installers starting 4.6 ins't supported for now. You need a repacked version like did here: https://github.com/abbodi1406/dotNetFx4xW7. And avaliable like here: https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251. Other versions are avaliable too, search on forum topics;
-- New versions of palemoon may face side by side configuration error issue.;
-- Opera 39 - 50 may need follow parameters to start: --disable-gpu (to prevent black screen) and --single-process(to prevent eternally first page loading);
+- Firefox 131 以上版本無法使用 Youtube。因此，我們建議使用 115 或 128 ESR 版本。
+- 某些應用程式安裝程式可能無法執行，例如某些基於 Electron 的應用程式（例如 MS Teams）、Office 2013 或 GIMP 3.0 RC2 等會崩潰，導致應用程式無法安裝。某些安裝程式和應用程式需要作業系統支援 AVX，而作業系統目前不支援。因此，請使用預安裝版本，從其他作業系統複製；
+- 由於使用了名為「SFXCAB Substitute」的工具，而非微軟標準版本，因此無法將軟體包與 nlite 整合到 Windows ISO 中；
+- 目前不支援從 4.6 開始的標準 .Net Framework 安裝程式。您需要一個重新包裝的版本，例如：https://github.com/abbodi1406/dotNetFx4xW7。類似連結：https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251。其他版本也可用，請在論壇主題中搜尋；
+- 新版本的 palemoon 可能會出現並排配置錯誤問題。
+- Opera 39 - 50 可能需要以下參數才能啟動：--disable-gpu（防止黑屏）和 --single-process（防止永遠載入首頁）；
 
-## Before submitting an issue...
+## 提交問題前
 
-**Before reporting an issue, I strongly recommend checking if the problem exists in [One-Core-API-Canary](https://github.com/shorthorn-project/One-Core-API-Binaries-Canary) and carefully reviewing the existing [Issues](https://github.com/Skulltrail192/One-Core-API-Binaries/issues) to see if your problem has already been reported.**
+**回報問題之前，強烈建議您先檢查 [One-Core-API-Canary](https://github.com/shorthorn-project/One-Core-API-Binaries-Canary) 中是否存在該問題，並仔細查看現有的 [Issues](https://github.com/Skulltrail192/One-Core-API-Bina-Core-API-Binaore-API-Bina-API-Bina-API-Bina，已報告您的問題已被報告。 **
 
-**If the problem _does_ exist in Canary and is not already listed in the current Issues, please provide a detailed report of your issue, including the following information:**
+**如果問題確實存在於 Canary 版本中，且尚未列在當前 Issues 中，請提供一份詳細的問題報告，其中包含以下資訊：**
 
-**1. System Configuration:**
+**1.系統配置：**
 
-- **Type** (Physical Hardware/VM)
-- **Windows OS Edition** (e.g., Windows XP Professional Service Pack 3)
-- **Post-SP Updates:**
-  - Were any Post-Service Pack updates installed? (Yes/No)
-    - If yes, specify if they were installed **before** or **after** installing One-Core-API.
-- **Installed Software:** List any relevant software that might be related to the issue (e.g., Adobe Photoshop CC 2018, Firefox 132, etc.).
-- **Technical Specifications**:
-  - **If Physical Hardware:** Provide details on the processor, RAM (type, amount), hard drive type, and capacity (e.g., IDE disk, 120 GB).
-  - **If a Virtual Machine:** Specify the virtual machine configuration details (e.g., Oracle VirtualBox 6.1.0, 2 GB RAM, 120 GB disk, AHCI mode).
-- **Steps to reproduce the error**
+- **類型**（實體硬體/虛擬機器）
+- **Windows 作業系統版本**（例如，Windows XP Professional Service Pack 3）
+- **SP 更新後**：
+  - 是否安裝了任何 Service Pack 更新後？ （是/否）
+    - 如果是，請說明這些更新是在安裝 One-Core-API 之前**還是之後**安裝的。
+- **已安裝的軟體**：列出任何可能與問題相關的軟體（例如，Adobe Photoshop CC 2018、Firefox 132 等）。
+- **技術規格**：
+  - **如果是實體硬體**：請提供處理器、RAM（類型、容量）、硬碟類型和容量（例如，IDE 磁碟，120 GB）的詳細資訊。
+  - **如果是虛擬機器**：請指定虛擬機器配置詳細資訊（例如，Oracle VirtualBox 6.1.0、2 GB RAM、120 GB 磁碟、AHCI 模式）。
+- **重現錯誤的步驟**
 
-> **IMPORTANT:** If possible, please also **attach any relevant logs** to the issue. This will greatly assist in identifying a solution faster.
+> **重要提示：**如有可能，請將**所有相關日誌**附加到問題中。這將有助於更快地找到解決方案。
 
-> It is also advisable to attach a video recording of the problem, if feasible.
+> 如果可行的話，建議附加問題的錄影錄影。
 >
-> **Please note that the issue will be closed if the problem is not reproducible.**
+> **請注意，如果問題無法重現，問題將關閉。 **
 
-## Repository Structure
+## 倉庫結構
 
-- Documents: Project documentation, known bugs, sfxcab usage (for making installers), etc.
-- Packages\x86 and Packages\x64: Binary releases categorized by package. You can download and install/update the packages directly from here (i.e. by going to Packages\x86\Base installer\update and runnning update.exe).
-- Todo: To do tasks
-- Test: Some binaries and documents for testing;
-- Release: Scripts to generate a new binaries release;
-- Output: Binaries output, you can generate using scripts on Release folder;
+- Documents：專案文件、已知錯誤、sfxcab 使用方法（用於製作安裝程式）等。
+- Packages\x86 和 Packages\x64：按軟體包分類的二進位版本。您可以直接從這裡下載並安裝/更新軟體包（例如，前往 Packages\x86\Base installer\update 並執行 update.exe）。
+- Todo：待辦事項
+- Test：一些用於測試的二進位和文件；
+- Release：用於產生新二進位版本的腳本；
+- Output：二進位輸出，您可以使用 Release 資料夾中的腳本產生；
 
-## Extra Information and Links
+## 額外資訊和鏈接
 
-**Extended Features for One-Core-API based Systems:**
+**基於 One-Core-API 系統的擴充功能：**
 
 <b><a href="https://github.com/shorthorn-project/One-Core-API-Extras" style="font-size: 18px">https://github.com/shorthorn-project/One-Core-API-Extras</a></b>
 
-**Tools for new Deployment System for One-Core-API based Systems:**
+**基於 One-Core-API 系統的新部署系統工具：**
 
 <b><a href="https://github.com/Skulltrail192/One-Core-API-Tools" style="font-size: 18px">https://github.com/Skulltrail192/One-Core-API-Tools</a></b>
 
-### Official Discord Server
+### 官方 Discord 伺服器
 
-**If you want to join our Official Discord Server of One-Core-API, you can join here:**
+**如果您想加入我們的One-Core-API官方Discord伺服器，您可以在這裡加入：**
 
 <b><a href="https://discord.gg/eRcGuFtn6p" style="font-size: 25px">https://discord.gg/eRcGuFtn6p</a></b></n>
 
-## Showcase / Proof of Concept
+## 效果展示和概念驗證
 
-Some screenshots of Applicaions running on XP/Server 2003:
+在 XP/Server 2003 上運行的應用程式的一些螢幕截圖：
 
 <details>
-  <summary>Browsers and Thunderbird</summary>
+  <summary>瀏覽器</summary>
 
   **Chrome 132**
   ![image](https://github.com/user-attachments/assets/84e83d53-ea8e-47b9-a566-e0986c91b812)
@@ -331,7 +331,7 @@ Some screenshots of Applicaions running on XP/Server 2003:
 </details>
 
 <details>
-  <summary>Games</summary>
+  <summary>游戲</summary>
  
   **Microsoft Chess 3d**
   ![Chess3d](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/bd1ad0c6-edde-4ff2-a6e0-074c7379fab6)
@@ -341,7 +341,7 @@ Some screenshots of Applicaions running on XP/Server 2003:
 </details>
 
 <details>
-  <summary>Messengers and other communication programs</summary>
+  <summary即時通訊和其他通訊程序</summary>
 
   **Discord 0.309**
   ![Discord-Login](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/8a4c12b5-19fc-454d-b02a-a1db807d3900)
@@ -355,7 +355,7 @@ Some screenshots of Applicaions running on XP/Server 2003:
 </details>
 
 <details>
-  <summary>Native Windows 7 apps</summary>
+  <summary>原生Windows 7應用</summary>
 
   **Windows 7 Sticky Notes**
   ![StickyNotes](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/669ba3e4-b831-4a96-ad40-d87e3e9531e2)
@@ -368,7 +368,7 @@ Some screenshots of Applicaions running on XP/Server 2003:
 </details>
 
 <details>
-  <summary>Other</summary>
+  <summary>其他</summary>
   
   **Spotify (For Windows 7)**
   ![Spotify-Windows7](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/09de7c20-8670-45dc-9471-a6db9349abd0)
@@ -376,7 +376,7 @@ Some screenshots of Applicaions running on XP/Server 2003:
   **Visual Studio Code 1.81**
   ![VisualCode](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/b21748b9-25bb-412d-95b3-2219d2efdf42)
 
-  **Libre Office 24 (latest)**
+  **Libre Office 24（最新版）**
   ![LibreOffice](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/11fd191d-270c-428d-8d41-0498e8fafb3b)
   ![Writer-LibreOffice](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/e389a39b-febd-45f6-9c6f-25f64e460142)
 
