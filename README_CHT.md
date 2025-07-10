@@ -15,19 +15,19 @@
 **此儲存庫包含 One-Core-API 專案的二進位版本。這些版本與 Windows Server 2003 RTM、SP1 和 SP2、Windows XP RTM、SP1、SP2 和 SP3 以及 Windows XP x64 SP1/SP2 相容。但是，強烈建議使用安裝了最新 Service Pack 更新和所有可用更新的系統。**  **警告！** 
   One-Core-Api現在默認使用Directx原生軟體渲染，要執行DirextX 10和以上的游戲，您必須將 <您的安裝盤符>\Windows\System32\wined3d 內的檔案複製到遊戲安裝目錄中。否則，遊戲將無法啟動或黑屏！
 
-<!-- **Official Discord Server**: <h2>https://discord.gg/eRcGuFtn6p</h2> -->
+<!-- **官方Discord服務器**: <h2>https://discord.gg/eRcGuFtn6p</h2> -->
 
-- [Main Features](#main-features)
-  - [Before Using This Software](#before-using-this-software)
-- [How to install One-Core-API?](#how-to-install-one-core-api)
-- [How to uninstall One-Core-API?](#how-to-uninstall-one-core-api)
-- [Application Compatibility](#application-compatibility)
-- [Known Limitations](#known-limitations)
-- [Before submitting an issue...](#before-submitting-an-issue)
-- [Repository Structure](#repository-structure)
-- [Extra Information and Links](#extra-information-and-links)
-  - [Official Discord Server](#official-discord-server)
-- [Showcase / Proof of Concept](#showcase--proof-of-concept)
+- [主要功能](#main-features)
+  - [使用前須知](#before-using-this-software)
+- [如何安裝One-Core-API](#how-to-install-one-core-api)
+- [如何安裝One-Core-API](#how-to-uninstall-one-core-api)
+- [應用程式相容性](#application-compatibility)
+- [已知限制](#known-limitations)
+- [提交問題前...](#before-submitting-an-issue)
+- [儲存庫結構](#repository-structure)
+- [額外資訊和連結](#extra-information-and-links)
+  - [官方Discord服務器](#official-discord-server)
+- [展示](#showcase--proof-of-concept)
 
 <!-- **Main information and guid to report of issue and mainly, BSOD (Blue Screen of the Death)**
 
