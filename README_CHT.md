@@ -2,19 +2,18 @@
   <a href="https://github.com/One-Core-API/One-Core-API/releases">
     <img src="Assets/banner.png" width="100%" height="auto" alt="Banner">
   </a>
-  <h6>Huge Thanks to @pashtetusss777 for the banner</h6>
+  <h6>非常感謝由 @pashtetusss777 製作的橫幅</h6>
 </div>
 
 ---
 
-**Language:**
+**語言:**
 [English](README.md) | [简体中文](README_CN.md) | [繁體中文](README_CHT.md) | [Русский](README_RU.md) | [Українська](README_UK.md) | [日本語](README_JP.md) | [Português-Brasil](README_BR.md)
 
 ---
 
-**This repository contains binary releases of the One-Core-API project. These are compatible with Windows Server 2003 RTM, SP1 and SP2, Windows XP RTM, SP1, SP2 and SP3 and Windows XP
-x64 SP1/SP2. However, it is highly recommended to use the system with its latest Service Pack update and all available updates.**  **Warning!** 
-  Now, OCA use Directx Native software render by default. For run a dx10+ game, you must need copy the files inside <Your installation letter>\Windows\System32\wined3d into the game installation. Otherwiser, the game will fail to start or get a black screen!
+**此儲存庫包含 One-Core-API 專案的二進位版本。這些版本與 Windows Server 2003 RTM、SP1 和 SP2、Windows XP RTM、SP1、SP2 和 SP3 以及 Windows XP x64 SP1/SP2 相容。但是，強烈建議使用安裝了最新 Service Pack 更新和所有可用更新的系統。**  **警告！** 
+  One-Core-Api現在默認使用Directx原生軟體渲染，要執行DirextX 10和以上的游戲，您必須將 <您的安裝盤符>\Windows\System32\wined3d 內的檔案複製到遊戲安裝目錄中。否則，遊戲將無法啟動或黑屏！
 
 <!-- **Official Discord Server**: <h2>https://discord.gg/eRcGuFtn6p</h2> -->
 
