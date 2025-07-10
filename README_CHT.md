@@ -11,8 +11,10 @@
 [English](README.md) | [简体中文](README_CN.md) | [繁體中文](README_CHT.md) | [Русский](README_RU.md) | [Українська](README_UK.md) | [日本語](README_JP.md) | [Português-Brasil](README_BR.md)
 
 ---
-- **The Tradational Chinese version of README.md is done by [Zhuguli232](https://github.com/Zhuguli232).
-- **繁體中文版自述由[Zhuguli232](https://github.com/Zhuguli232)（難忘的朱古力232）完成。
+  <summary>关于繁體中文自述 / About the Traditional Chinese readme（README_CHT.md）</summary>
+  
+- **The Tradational Chinese version of README.md is done by [Zhuguli232](https://github.com/Zhuguli232), some translations may not be accurate.
+- **繁體中文版自述由[Zhuguli232](https://github.com/Zhuguli232)（難忘的朱古力232）完成，有些地方翻譯可能不準確。
 
 **此儲存庫包含 One-Core-API 專案的二進位版本。與 Windows Server 2003 RTM/SP1/SP2、Windows XP RTM/SP1/SP2/SP3以及Windows XP x64 SP1/SP2 相容。但是，強烈建議使用安裝了最新Service Pack 更新和所有可用更新的系統。**  **警告！** 
   One-Core-Api現在默認使用Directx原生軟體渲染，要執行DirextX 10和以上的游戲，您必須將 <您的安裝盤符>\Windows\System32\wined3d 內的檔案複製到遊戲安裝目錄中。否則，遊戲將無法啟動或黑屏！
