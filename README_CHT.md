@@ -157,10 +157,10 @@ One-Core-API 採用了 Windows NT 5.x 之前的修補程式安裝技術。因此
 </details>
 
 <details>
-  <summary>Messengers即時通訊和其他通訊程序</summary>
+  <summary>即時通訊和其他通訊程序</summary>
   
   - Discord 0.309.0;
-  - Legocord (Discord fork) 最新版本；
+  - Legocord (Discord分叉) 最新版本；
   - Telegram Desktop；
   - Line；
   - Zoom；
@@ -211,7 +211,7 @@ One-Core-API 採用了 Windows NT 5.x 之前的修補程式安裝技術。因此
 
   **警告！** 
   
-  One-Core-Api現在默認使用Directx原生軟體渲染，要執行DirextX 10和以上的游戲，您必須將 <您的安裝盤符>\Windows\System32\wined3d 內的檔案複製到遊戲安裝目錄中。否則，遊戲將無法啟動或黑屏！
+  > One-Core-Api現在默認使用Directx原生軟體渲染，要執行DirextX 10和以上的游戲，您必須將 <您的安裝盤符>\Windows\System32\wined3d 內的檔案複製到遊戲安裝目錄中。否則，遊戲將無法啟動或黑屏！
 
   - 極速快感：新全民公敵；
   - 極速快感：亡命天涯；
