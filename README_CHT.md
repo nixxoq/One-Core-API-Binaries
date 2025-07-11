@@ -18,8 +18,10 @@
 - **繁體中文版自述由[Zhuguli232](https://github.com/Zhuguli232)（難忘的朱古力232）完成，有些地方翻譯可能不準確。
 </details>
 
-**此儲存庫包含 One-Core-API 專案的二進位版本。與 Windows Server 2003 RTM/SP1/SP2、Windows XP RTM/SP1/SP2/SP3以及Windows XP x64 SP1/SP2 相容。但是，強烈建議使用安裝了最新Service Pack 更新和所有可用更新的系統。**  **警告！** 
-  One-Core-Api現在默認使用Directx原生軟體渲染，要執行DirextX 10和以上的游戲，您必須將 <您的安裝盤符>\Windows\System32\wined3d 內的檔案複製到遊戲安裝目錄中。否則，遊戲將無法啟動或黑屏！
+**此儲存庫包含 One-Core-API 專案的二進位版本。與 Windows Server 2003 RTM/SP1/SP2、Windows XP RTM/SP1/SP2/SP3以及Windows XP x64 SP1/SP2 相容。但是，強烈建議使用安裝了最新Service Pack 更新和所有可用更新的系統。**  
+
+> [!WARNING] 
+> One-Core-Api現在默認使用Directx原生軟體渲染，要執行DirextX 10和以上的游戲，您必須將 <您的安裝盤符>\Windows\System32\wined3d 內的檔案複製到遊戲安裝目錄中。否則，遊戲將無法啟動或黑屏！
 
 <!-- **官方Discord服務器**: <h2>https://discord.gg/eRcGuFtn6p</h2> -->
 
@@ -160,7 +162,7 @@ One-Core-API 採用了 Windows NT 5.x 之前的修補程式安裝技術。因此
   <summary>即時通訊和其他通訊程序</summary>
   
   - Discord 0.309.0;
-  - Legocord (Discord分叉) 最新版本；
+  - Legocord (Discord的分叉) 最新版本；
   - Telegram Desktop；
   - Line；
   - Zoom；
@@ -209,7 +211,7 @@ One-Core-API 採用了 Windows NT 5.x 之前的修補程式安裝技術。因此
 
   <summary>OpenGL, Directx 9EX、10、和11的游戲</summary>
 
-  **警告！** 
+  ### **警告！** 
   
   > One-Core-Api現在默認使用Directx原生軟體渲染，要執行DirextX 10和以上的游戲，您必須將 <您的安裝盤符>\Windows\System32\wined3d 內的檔案複製到遊戲安裝目錄中。否則，遊戲將無法啟動或黑屏！
 
@@ -253,7 +255,10 @@ One-Core-API 採用了 Windows NT 5.x 之前的修補程式安裝技術。因此
 - Firefox 131 以上版本無法使用 Youtube。因此，我們建議使用 115 或 128 ESR 版本。
 - 某些應用程式安裝程式可能無法執行，例如某些基於 Electron 的應用程式（例如 MS Teams）、Office 2013 或 GIMP 3.0 RC2 等會崩潰，導致應用程式無法安裝。某些安裝程式和應用程式需要作業系統支援 AVX，而作業系統目前不支援。因此，請使用預安裝版本，從其他作業系統複製；
 - 由於使用了名為「SFXCAB Substitute」的工具，而非微軟標準版本，因此無法將軟體包與 nlite 整合到 Windows ISO 中；
-- 目前不支援從 4.6 開始的標準 .Net Framework 安裝程式。您需要一個重新包裝的版本，例如：https://github.com/abbodi1406/dotNetFx4xW7。類似連結：https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251。其他版本也可用，請在論壇主題中搜尋；
+- 目前不支援從 4.6 開始的標準 .Net Framework 安裝程式，您需要一個重新包裝的版本：
+  - 例如：https://github.com/abbodi1406/dotNetFx4xW7
+  - 類似鏈接：https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251
+  - 其他版本也可用，請在論壇主題中搜尋；
 - 新版本的 palemoon 可能會出現並排配置錯誤問題。
 - Opera 39 - 50 可能需要以下參數才能啟動：--disable-gpu（防止黑屏）和 --single-process（防止永遠載入首頁）；
 
@@ -339,10 +344,10 @@ One-Core-API 採用了 Windows NT 5.x 之前的修補程式安裝技術。因此
 <details>
   <summary>游戲</summary>
  
-  **Microsoft Chess 3d**
+  **Microsoft Chess 3D**
   ![Chess3d](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/bd1ad0c6-edde-4ff2-a6e0-074c7379fab6)
 
-  **Minecraft 1.21**
+  **我的世界1.21**
   ![image](https://github.com/user-attachments/assets/cfd05f13-617e-49a0-b416-67906d42840b)
 </details>
 
@@ -366,17 +371,17 @@ One-Core-API 採用了 Windows NT 5.x 之前的修補程式安裝技術。因此
   **Windows 7 Sticky Notes**
   ![StickyNotes](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/669ba3e4-b831-4a96-ad40-d87e3e9531e2)
 
-  **Windows 7 Paint**
+  **Windows 7畫圖**
   ![Paint](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/81728a44-c9e7-41e8-b68b-8ea7b119ebba)
 
-  **Windows 7 Wordpad**
+  **Windows 7寫字板**
   ![Wordpad](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/9dac02c7-7139-47fe-8732-ccd9ef91090b)
 </details>
 
 <details>
   <summary>其他</summary>
   
-  **Spotify (For Windows 7)**
+  **Spotify (適用於Windows 7的版本)**
   ![Spotify-Windows7](https://github.com/Skulltrail192/One-Core-API-Binaries/assets/5159776/09de7c20-8670-45dc-9471-a6db9349abd0)
 
   **Visual Studio Code 1.81**
