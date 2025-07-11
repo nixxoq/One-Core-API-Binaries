@@ -264,7 +264,7 @@ One-Core-API 採用了 Windows NT 5.x 之前的修補程式安裝技術。因此
 
 ## 提交問題前
 
-**回報問題之前，強烈建議您先檢查 [One-Core-API-Canary](https://github.com/shorthorn-project/One-Core-API-Binaries-Canary) 中是否存在該問題，並仔細查看現有的 [Issues](https://github.com/Skulltrail192/One-Core-API-Bina-Core-API-Binaore-API-Bina-API-Bina-API-Bina，已報告您的問題已被報告。 **
+**回報問題之前，強烈建議您先檢查 [One-Core-API-Canary](https://github.com/shorthorn-project/One-Core-API-Binaries-Canary) 中是否存在該問題，並仔細查看現有的 [Issues](https://github.com/Skulltrail192/One-Core-API-Binaries/issues)，已報告您的問題已被報告。**
 
 **如果問題確實存在於 Canary 版本中，且尚未列在當前 Issues 中，請提供一份詳細的問題報告，其中包含以下資訊：**
 
